@@ -11,8 +11,8 @@ import datetime
 
 table_name = 'BusinessLogsFlow'
 
-azure_log_customer_id = '49078bfb-0097-4572-b5aa-1b7d9a8f8f13'
-azure_log_shared_key = 'ZTiRlzNQGZ6VCJ7ePXQHZUKsBglcf/e/MY1zDaswHqoMge0XDwiMTUW+PcBRPCMWxSpN/L/P0eG7VN1Qk+vjWg=='
+azure_log_customer_id = ''
+azure_log_shared_key = ''
 
 
 def build_signature(customer_id, shared_key, date, content_length, method, content_type, resource):
